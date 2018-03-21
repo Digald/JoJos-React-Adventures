@@ -61,18 +61,18 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <Navbar score={this.state.score} highscore={this.state.highscore}/>
-        <Hero/>
-        <div className="column">
-          {this.state.data.map(pic => (
-            <Card
-              id={pic.id}
-              key={pic.id}
-              name={pic.name}
-              image={pic.image}
-              validateClick={this.validateClick}
-            />
-          ))}
+        <Navbar score={this.state.score} highscore={this.state.highscore} />
+        <Hero />
+        <div className="columns is-multiline">
+        {this.state.data.map(pic => (
+          <Card
+            id={pic.id}
+            key={pic.id}
+            name={pic.name}
+            image={pic.image}
+            validateClick={this.validateClick}
+          />
+        ))}
         </div>
       </Container>
     );
