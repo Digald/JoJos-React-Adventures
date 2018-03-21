@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import data from "./cardData.json";
 import Card from "./components/Card";
+import Container from './components/Container';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 class App extends Component {
   state = {
@@ -12,28 +15,32 @@ class App extends Component {
 
   validateClick = id => {
     if (!this.state.guesses.includes(id)) {
-      console.log(id);
+      console.log(`clicked ${id}`);
       const pushToGuesses = this.state.guesses;
       pushToGuesses.push(id);
       const randomData = this.shuffle(this.state.data);
+      const newScore = this.state.score + 1;
       this.setState({
         guesses: pushToGuesses,
         data: randomData,
-        score: this.state.score + 1
+        score: newScore
       });
-      console.log(this.state.score);
     } else {
       console.log("running lose");
-      console.log(id);
-      this.setHighScore()
+      this.setHighScore();
     }
   };
+
   setHighScore = () => {
     if (this.state.score > this.state.highscore) {
-      this.setState({highscore: this.state.score})
+      this.setState({ highscore: this.state.score });
     }
-    this.setState({score: 0, guesses: [], data: this.shuffle(this.state.data)})
-  }
+    this.setState({
+      score: 0,
+      guesses: [],
+      data: this.shuffle(this.state.data)
+    });
+  };
 
   shuffle = array => {
     var currentIndex = array.length,
@@ -53,17 +60,21 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="column">
-        {this.state.data.map(pic => (
-          <Card
-            id={pic.id}
-            key={pic.id}
-            name={pic.name}
-            image={pic.image}
-            validateClick={this.validateClick}
-          />
-        ))}
-      </div>
+      <Container>
+        <Navbar score={this.state.score} highscore={this.state.highscore}/>
+        <Hero/>
+        <div className="column">
+          {this.state.data.map(pic => (
+            <Card
+              id={pic.id}
+              key={pic.id}
+              name={pic.name}
+              image={pic.image}
+              validateClick={this.validateClick}
+            />
+          ))}
+        </div>
+      </Container>
     );
   }
 }
