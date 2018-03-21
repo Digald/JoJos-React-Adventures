@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Jotaro",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/9/99/KujoAnime.png/revision/latest/scale-to-width-down/270?cb=20161029182608"
+  },
+  {
+    "id": 2,
+    "name": "Dio",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/1/18/Dio3Anime.png/revision/latest/scale-to-width-down/270?cb=20170301013659"
+  },
+  {
+    "id": 3,
+    "name": "Josuke",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/2/24/JosukeAnime.PNG/revision/latest/scale-to-width-down/347?cb=20171212081940"
+  },
+  {
+    "id": 4,
+    "name": "Jonathan",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/3/3f/JonathanP2.png/revision/latest/scale-to-width-down/342?cb=20170223113043"
+  },
+  {
+    "id": 5,
+    "name": "Joseph",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/4/43/JosephJoestar123.png/revision/latest/scale-to-width-down/270?cb=20170521193900"
+  },
+  {
+    "id": 6,
+    "name": "Kira",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/8/8e/MatureAnime.png/revision/latest/scale-to-width-down/270?cb=20171005154231"
+  },
+  {
+    "id": 7,
+    "name": "Kars",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/5/53/Kars_%28Anime%29.png/revision/latest/scale-to-width-down/270?cb=20170525223741"
+  },
+  {
+    "id": 8,
+    "name": "Iggy",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/b/bb/Iggy_Normal_Anime.png/revision/latest/scale-to-width-down/341?cb=20151108101034"
+  },
+  {
+    "id": 9,
+    "name": "Avdal",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/2/26/MuhammadAvdol.png/revision/latest/scale-to-width-down/350?cb=20170316071704"
+  },
+  {
+    "id": 10,
+    "name": "Hol Horse",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/7/7b/Holhorseanime.png/revision/latest/scale-to-width-down/350?cb=20170316071609"
+  },
+  {
+    "id": 11,
+    "name": "Polnareff",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/8/8f/JP_Polnareff.png/revision/latest/scale-to-width-down/270?cb=20170316071821"
+  },
+  {
+    "id": 12,
+    "name": "Rohan",
+    "image":
+      "https://vignette.wikia.nocookie.net/jjba/images/4/4f/Rohan_anime_AV.png/revision/latest/scale-to-width-down/350?cb=20171212082327"
+  }
+]
