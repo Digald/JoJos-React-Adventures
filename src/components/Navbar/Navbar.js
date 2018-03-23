@@ -1,5 +1,5 @@
 import React from "react";
-// import css here
+import './Navbar.css';
 
 const Navbar = props => (
   <nav className="level is-fixed-top navbar">
