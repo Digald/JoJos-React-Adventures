@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import data from "./cardData.json";
+import CardList from './components/CardList';
 import Card from "./components/Card";
 import Container from './components/Container';
 import Navbar from './components/Navbar';
@@ -63,7 +64,7 @@ class App extends Component {
       <Container>
         <Navbar score={this.state.score} highscore={this.state.highscore} />
         <Hero />
-        <div className="columns is-multiline">
+        <CardList>
         {this.state.data.map(pic => (
           <Card
             id={pic.id}
@@ -73,7 +74,7 @@ class App extends Component {
             validateClick={this.validateClick}
           />
         ))}
-        </div>
+        </CardList>
       </Container>
     );
   }

@@ -7,6 +7,9 @@ const Navbar = props => (
       JJRA
     </p>
     <p className="level-item has-text-centered">
+      Correct or Wrong text
+    </p>
+    <p className="level-item has-text-centered">
       Score: {props.score}
     </p>
     <p className="level-item has-text-centered">
