@@ -1,7 +1,14 @@
+@font-face {
+    font-family: hero;
+    src: url('/sf_fedora/SF Fedora.tff');
+}
 .hero {
-    /* background: linear-gradient(to bottom right, #590487, #7D04B2) */
     background-color: #590487;
     text-align: center;
+}
+.title {
+ font-family: hero;
+ font-weight: bold;
 }
 .title, .subtitle {
     color: #E8AB33;
