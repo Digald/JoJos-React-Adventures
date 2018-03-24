@@ -9,6 +9,7 @@
 .title {
  font-family: hero;
  font-weight: bold;
+ letter-spacing: 4px;
 }
 .title, .subtitle {
     color: #E8AB33;

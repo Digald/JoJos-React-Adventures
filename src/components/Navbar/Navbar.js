@@ -7,7 +7,6 @@ const Navbar = props => (
       <img className="brand-img" src="/images/menacing.png" alt="menacing" />
       <p className="brand-name">JJRA</p>
     </div>
-    {/* <p className="level-item has-text-centered">Correct or Wrong text</p> */}
     <p className="level-item has-text-centered">Score: {props.score}</p>
     <p className="level-item has-text-centered">HighScore: {props.highscore}</p>
   </nav>

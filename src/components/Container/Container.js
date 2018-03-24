@@ -1,8 +1,7 @@
 import React from "react";
-import './Container.css';
 
 const Container = props => (
-    <div className="container is-fluid">{props.children}</div>
+    <div className={`container is-fluid ${props.bounce}`}>{props.children}</div>
 );
 
 export default Container;
