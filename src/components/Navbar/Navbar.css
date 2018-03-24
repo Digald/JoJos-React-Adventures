@@ -1,8 +1,17 @@
+html,body{
+    height: 100%;
+}
 body {
     padding-top: 78px;
     background-image: url('/images/pattern.png');
     background-size: cover;
+    background-position: center;
 }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 .navbar {
     background-color: #590487;
     color:#E8AB33;
@@ -14,8 +23,8 @@ body {
     font-size: 40px;
     letter-spacing: 6px;
 }
-/* @media (max-width: 768px) {
-    body {
-        padding-top: 156px;
+@media (max-width: 1400px) {
+    html,body {
+        max-height: 100%;
     }
-} */
+}
