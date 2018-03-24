@@ -1,0 +1,21 @@
+body {
+    padding-top: 78px;
+    background-image: url('/images/pattern.png');
+    background-size: cover;
+}
+.navbar {
+    background-color: #590487;
+    color:#E8AB33;
+}
+.brand-img {
+    height: 70px;
+}
+.brand-name {
+    font-size: 40px;
+    letter-spacing: 6px;
+}
+/* @media (max-width: 768px) {
+    body {
+        padding-top: 156px;
+    }
+} */

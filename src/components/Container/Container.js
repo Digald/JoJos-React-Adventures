@@ -1,5 +1,5 @@
 import React from "react";
-// import css here
+import './Container.css';
 
 const Container = props => (
     <div className="container is-fluid">{props.children}</div>

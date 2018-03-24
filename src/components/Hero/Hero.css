@@ -1,0 +1,8 @@
+.hero {
+    /* background: linear-gradient(to bottom right, #590487, #7D04B2) */
+    background-color: #590487;
+    text-align: center;
+}
+.title, .subtitle {
+    color: #E8AB33;
+}

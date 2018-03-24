@@ -2,7 +2,7 @@ import React from "react";
 import './Hero.css';
 
 const Hero = props => (
-  <section className="hero is-danger is-bold">
+  <section className="hero">
     <div className="hero-body">
       <div className="container is-fluid">
         <h1 className="title">JoJo's React Adventures</h1>
